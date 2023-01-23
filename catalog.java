@@ -1,4 +1,4 @@
-import java.util.*;
+
 
 public class catalog extends laptop {
 

@@ -7,7 +7,7 @@ public class filter {
         laptop l2 = new laptop(2, 4, 256, "Windows 11", "Белый");
         laptop l3 = new laptop(3, 32, 512, "Windows 10", "Серый");
         laptop l4 = new laptop(4, 16, 256, "Windows 11", "Черный");
-        System.out.println(l1.toString());
+        
 
         System.out.println("Выберите функцию:");
         System.out.println("1 - сортировка по ОЗУ");
