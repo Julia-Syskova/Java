@@ -19,13 +19,13 @@ public class filter {
 
                 System.out.printf("Введите значение ОЗУ: ");
                 Integer ram = sc.nextInt();
-                if(ram >=32){
-                    System.out.printf(l1.toString() + "\n" + l2.toString() + "\n" + l4.toString() + "\n" + l3.toString() + "\n");
-                }else if(ram < 32){
-                    System.out.printf(l1.toString() + "\n" + l2.toString() + "\n" + l4.toString());
-                }else if(ram < 16){
-                    System.out.printf(l1.toString() + "\n" + l2.toString());
-                }else if(ram < 4){
+                if(ram == 32){
+                    System.out.printf(l3.toString());
+                }else if(ram == 16){
+                    System.out.printf(l4.toString());
+                }else if(ram == 4){
+                    System.out.printf(l2.toString());
+                }else if(ram == 2){
                     System.out.printf(l1.toString());
                 }else System.out.println("Таких ноутбуков нет!");
 
@@ -33,13 +33,11 @@ public class filter {
 
                 System.out.printf("Введите значение SSD: ");
                 Integer ssd = sc.nextInt();
-                if(ssd >=512){
-                    System.out.printf(l1.toString() + "\n" + l2.toString() + "\n" + l4.toString() + "\n" + l3.toString() + "\n");
-                }else if(ssd < 512){
-                    System.out.printf(l1.toString() + "\n" + l2.toString() + "\n" + l4.toString());
-                }else if(ssd < 256){
-                    System.out.printf(l1.toString() + "\n" + l2.toString());
-                }else if(ssd < 128){
+                if(ssd == 512){
+                    System.out.printf(l3.toString());
+                }else if(ssd == 256){
+                    System.out.printf(l2.toString() + "\n" + l4.toString());
+                }else if(ssd == 128){
                     System.out.printf(l1.toString());
                 }else System.out.println("Таких ноутбуков нет!");
 
